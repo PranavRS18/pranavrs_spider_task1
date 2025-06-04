@@ -1,0 +1,110 @@
+header{
+    text-align: center;
+    color: black;
+    background-color: goldenrod;
+    font-family: Courier New, Courier, monospace;
+    font-size: 150px;
+    font-weight: bold;
+    text-shadow: 0 8px lightsteelblue;
+    height: 15%;
+    padding-top: 2%;
+    margin-top: -1%;
+    margin-left: -3%;
+    margin-right: -1%;
+}
+
+body{
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#mode{
+    position: absolute;
+    margin-top: 5.5%;
+    margin-left: 2%;
+    width: 30.5%;
+    height: 10%;
+    border: thick solid black;
+    font-size: 50px;
+    background-image: linear-gradient(white, indianred);
+    font-weight: bold;
+    font-family: serif;
+}
+
+#mode:hover{
+    background-image: linear-gradient(white, black);
+    color: white;
+}
+
+#score{
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 12.5%;
+    width: 30%;
+    height: 42%;
+    background-image: url("score-background.jpeg");
+    background-size: cover;
+    border: thick solid black;
+    color: white;
+    font-family: serif;
+}
+
+#score h1{
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 100px;
+}
+
+#score h2 {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    line-height: 0em;
+}
+
+#score .result{
+    position: relative;
+    text-align: center;
+    line-height: 1em;
+    margin-top: 20%;
+    font-size: 65px;
+    color: white;
+}
+
+#machine{
+    position: absolute;
+    margin-left: 31%;
+    margin-top: -2%;
+    height: 90%;
+}
+
+#hammer{
+    position: absolute;
+    top: 62%;
+    left: 23%;
+    float: right;
+    height: 45%;
+}
+
+#smash{
+    position: absolute;
+    background-color: goldenrod;
+    bottom: 30%;
+    left: 70%;
+    width: 25%;
+    height: 27%;
+    font-size: 70px;
+    font-weight: bold;
+    border-radius: 100%;
+    border: thick solid black;
+}
+
+#smash:hover{
+    color: white;
+    background-image: linear-gradient(goldenrod, red);
+}
